@@ -1,0 +1,15 @@
+.container_menu-title {
+    margin: 0 1rem;
+}
+
+.container_menu-title > h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    margin: .625rem 0;
+    font-size: 6rem;
+}
+
+.container_menu-title  > hr {
+    margin: .625rem 0;
+}

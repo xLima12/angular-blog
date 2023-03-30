@@ -1,0 +1,5 @@
+.container_articles {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.625rem;
+}
