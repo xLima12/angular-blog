@@ -1,12 +1,33 @@
 <app-menu-bar></app-menu-bar>
 <app-menu-title></app-menu-title>
 <div class="container_articles">
-    <div class="container_articles-main">
-        <app-big-card></app-big-card>
-    </div>
-    <div class="container_articles-others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-    </div>
+  <div class="container_articles-main">
+    <app-big-card
+      [photoCover]="
+        'https://otakukart.com/wp-content/uploads/2021/04/dragon-ball-super-new-ultra-instinct-godly-powers-levels-68-spoi-1253296-1280x0-1.jpeg'
+      "
+      [cardTitle]="'Vegeta se iguala a Goku?'"
+      [cardDescription]="'Vegeta alcança o instinto superior incompleto e diz que daqui a 10 anos irá superar Goku.'"
+    ></app-big-card>
+  </div>
+  <div class="container_articles-others">
+    <app-small-card
+      [photoCover]="
+        'https://pbs.twimg.com/profile_images/1192101281252495363/c_xL2w3j_400x400.jpg'
+      "
+      [cardTitle]="'Goku alcançou o instinto superior completo?'"
+    ></app-small-card>
+    <app-small-card
+      [photoCover]="
+        'https://atualinerd.com.br/wp-content/uploads/2021/08/0-capa.png'
+      "
+      [cardTitle]="'Bills ameassa destruir a terra mais uma vez, e o motivo?'"
+    ></app-small-card>
+    <app-small-card
+      [photoCover]="
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7BL0cigOCRwdx4gQ49NuAliOu6We6lMgPAQ&usqp=CAU'
+      "
+      [cardTitle]="'Trunks vem do futuro mais uma vez para avisar Vegetta que ele não supera Goku em 10 anos.'"
+    ></app-small-card>
+  </div>
 </div>
